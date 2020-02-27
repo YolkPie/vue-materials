@@ -3,7 +3,7 @@
         <div v-for="(item, index) in list" :key="index" class="item">
             <a :href="item.url" class="link" target="_blank" rel="noopener noreferrer">
                 <img :src="item.img" class="cover" :alt="item.title" />
-                <div class="title">{item.title}</div>
+                <div class="title">{{item.title}}</div>
             </a>
         </div>
     </div>
@@ -50,5 +50,5 @@ export default {
 }
 </script>
 <style>
-    @import "index.scss";
+    @import "index.css";
 </style>

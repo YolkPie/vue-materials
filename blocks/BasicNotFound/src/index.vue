@@ -1,7 +1,7 @@
 <template>
     <div class="basic-not-found">
         <div class={exceptionContent}>
-            <img :src="require('./images/TB1txw7bNrI8KJjy0FpXXb5hVXa-260-260.png')"
+            <img src="//img13.360buyimg.com/imagetools/jfs/t1/94993/6/13483/12702/5e5795afEf7f4ce99/31dc3b3c8c5259ce.png"
                  class="imgException"
                  alt="页面不存在"
             />
@@ -22,5 +22,5 @@ export default {
 }
 </script>
 <style>
-    @import "index.scss";
+    @import "index.css";
 </style>
