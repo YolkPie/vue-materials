@@ -1,6 +1,6 @@
 <template>
     <div class="basic-not-found">
-        <div class={exceptionContent}>
+        <div class="exceptionContent">
             <img src="//img13.360buyimg.com/imagetools/jfs/t1/94993/6/13483/12702/5e5795afEf7f4ce99/31dc3b3c8c5259ce.png"
                  class="imgException"
                  alt="页面不存在"
