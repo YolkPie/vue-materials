@@ -1,12 +1,10 @@
 {
-  "name": "@icedesign/entry-card-block",
-  "version": "3.0.1",
+  "name": "entry-card-block",
+  "version": "1.0.0",
   "description": "入口列表卡片",
   "main": "lib/index.js",
   "files": [
-    "src/",
-    "build/",
-    "screenshot.png"
+    "src/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ice-lab/react-materials/tree/master/blocks/EntryCard"
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/EntryCard"
   },
   "license": "MIT",
   "keywords": [
@@ -25,11 +23,6 @@
     "@icedesign/container": "^1.x",
     "prop-types": "^15.5.8",
     "@alifd/next": "^1.x"
-  },
-  "devDependencies": {
-    "@icedesign/theme": "^0.x",
-    "react": "*",
-    "react-dom": "*"
   },
   "blockConfig": {
     "name": "entry-card",
@@ -45,11 +38,5 @@
     "access": "public",
     "registry": "http://registry.npmjs.com"
   },
-  "homepage": "https://unpkg.com/@icedesign/entry-card-block/build/index.html",
-  "scripts": {
-    "start": "../../node_modules/.bin/ice-scripts dev --config ../../ice.block.config.js",
-    "build": "../../node_modules/.bin/ice-scripts build --config ../../ice.block.config.js",
-    "screenshot": "../../node_modules/.bin/screenshot -l -s '#mountNode'",
-    "prepublishOnly": "npm run build && npm run screenshot"
-  }
+  "homepage": "https://unpkg.com/@icedesign/entry-card-block/build/index.html"
 }
