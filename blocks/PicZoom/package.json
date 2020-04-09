@@ -1,0 +1,39 @@
+{
+  "name": "piczoom-pc-block",
+  "version": "1.0.0",
+  "description": "入口列表卡片",
+  "main": "lib/index.js",
+  "files": [
+    "src/"
+  ],
+  "author": {
+    "name": "ICE Team",
+    "email": "ice-admin@alibaba-inc.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/PicZoom"
+  },
+  "license": "MIT",
+  "keywords": [
+    "PicZoom",
+  ],
+  "dependencies": {
+    "vue-awesome-swiper": "^3.1.3",
+  },
+  "blockConfig": {
+    "name": "entry-card",
+    "screenshot": "https://unpkg.com/@icedesign/entry-card-block/screenshot.png",
+    "themePackage": "@icedesign/theme",
+    "title": "入口列表卡片",
+    "categories": [
+      "列表"
+    ],
+    "version-0.x": "0.1.9"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "homepage": "https://unpkg.com/@icedesign/entry-card-block/build/index.html"
+}

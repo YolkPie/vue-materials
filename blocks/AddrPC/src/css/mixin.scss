@@ -1,0 +1,105 @@
+@charset "utf-8";
+@mixin displayflex {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+@mixin flexcolumn{
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+}
+@mixin flexone{
+  flex:1;
+  -webkit-box-flex:1;
+  -ms-flex:1;
+  -webkit-flex:1;
+}
+
+@mixin one-left($color:#e3e5e9, $type:solid) {
+  &:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    bottom: 0;
+    border-left: 1px $type $color;
+    color: $color;
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform: scaleX(0.5);
+    -webkit-transform: scaleX(0.5);
+  }
+}
+
+@mixin one-right($color:#e3e5e9, $type:solid) {
+  &:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    bottom: 0;
+    border-right: 1px $type $color;
+    color: $color;
+    transform-origin: 100% 0;
+    -webkit-transform-origin: 100% 0;
+    transform: scaleX(0.5);
+    -webkit-transform: scaleX(0.5);
+  }
+}
+
+@mixin one-top($color:#e3e5e9, $type:solid) {
+  &:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    right: 0;
+    height: 1px;
+    border-top: 1px $type $color;
+    color: $color;
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform: scaleY(0.5);
+    -webkit-transform: scaleY(0.5);
+  }
+}
+
+@mixin one-bottom($color:#e3e5e9, $type:solid) {
+  &:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    border-bottom: 1px $type $color;
+    color: $color;
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    transform: scaleY(0.5);
+    -webkit-transform: scaleY(0.5);
+    z-index: 5;
+  }
+}
+
+@mixin one-border($color:#e3e5e9, $type:solid, $radius:0) {
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    border: 1px $type $color;
+    -webkit-border-radius: $radius*2;
+    -moz-border-radius: $radius*2;
+    border-radius: $radius*2;
+    transform: translate(-50%, -50%) scale(.5);
+    -webkit-transform: translate(-50%, -50%) scale(.5);
+  }
+}
