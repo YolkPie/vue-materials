@@ -73,7 +73,7 @@
     }
 </script>
 <style lang="scss" scoped>
-    @import "./css/mixin";
+    /*@import "./css/mixin";*/
     #bidimg {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;

@@ -36,6 +36,10 @@
 </template>
 
 <script>
+    import { jsonpAdapter } from '@yolkpie/utils'
+    import HttpRequest from './axios'
+    const baseUrl = ''
+    const axios = new HttpRequest(baseUrl)
 
     const Addr = (id) => {
         const params = {
