@@ -23,7 +23,7 @@
   },
   "blockConfig": {
     "name": "piczoom",
-    "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/piczoom.png",
+    "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/piczoom/piczoom.png",
     "themePackage": "@icedesign/theme",
     "title": "放大镜",
     "categories": [

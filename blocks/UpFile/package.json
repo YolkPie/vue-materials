@@ -24,7 +24,7 @@
   },
   "blockConfig": {
     "name": "upfile",
-    "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/upfile.png",
+    "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/upfile/upfile.png",
     "themePackage": "@icedesign/theme",
     "title": "上传文件",
     "categories": [
