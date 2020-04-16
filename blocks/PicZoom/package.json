@@ -25,7 +25,7 @@
     "name": "piczoom",
     "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/piczoom.png",
     "themePackage": "@icedesign/theme",
-    "title": "入口列表卡片",
+    "title": "放大镜",
     "categories": [
       "列表"
     ],

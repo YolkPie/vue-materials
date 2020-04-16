@@ -26,7 +26,7 @@
     "name": "upfile",
     "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/upfile.png",
     "themePackage": "@icedesign/theme",
-    "title": "入口列表卡片",
+    "title": "上传文件",
     "categories": [
       "列表"
     ],

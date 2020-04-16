@@ -28,7 +28,7 @@
     "name": "AddrPC",
     "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/addrpic.png",
     "themePackage": "@icedesign/theme",
-    "title": "入口列表卡片",
+    "title": "选择地址二级/三级",
     "categories": [
       "列表"
     ],
