@@ -57,6 +57,11 @@
             }
         })
     }
+    // axios.get('../list.json').then(response => {
+    //     return res
+    // }, response => {
+    //     console.log("get data error")
+    // });
 
     export default {
         data () {

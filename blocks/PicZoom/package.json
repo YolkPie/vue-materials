@@ -16,14 +16,14 @@
   },
   "license": "MIT",
   "keywords": [
-    "PicZoom",
+    "PicZoom"
   ],
   "dependencies": {
-    "vue-awesome-swiper": "^3.1.3",
+    "vue-awesome-swiper": "^3.1.3"
   },
   "blockConfig": {
-    "name": "entry-card",
-    "screenshot": "https://unpkg.com/@icedesign/entry-card-block/screenshot.png",
+    "name": "piczoom",
+    "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/piczoom.png",
     "themePackage": "@icedesign/theme",
     "title": "入口列表卡片",
     "categories": [

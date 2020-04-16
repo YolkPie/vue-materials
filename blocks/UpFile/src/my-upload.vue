@@ -28,15 +28,11 @@ export default {
     addFile({target: {files}}){//input标签触发onchange事件时，将文件加入待上传列表
       console.log(files[0],'hongmeizaicshi')
       if(this.fileList.length == 5){
-        this.$toast('最多可上传5个文件', {
-          type: 'error'
-        })
+        alert('最多可上传5个文件')
         return
       }
       if(files[0].size >= 52428800){
-        this.$toast('请您上传小于50M的文件', {
-          type: 'error'
-        })
+        alert('请您上传小于50M的文件')
         return
       }
       var typefile = files[0].type;
@@ -49,9 +45,7 @@ export default {
       }else if(/\.document/.test(typefile)){
         files[0].datame = {type:81,file:files[0]}
       }else{
-        this.$toast('请您上传系统支持的文件格式', {
-          type: 'error'
-        })
+        alert('请您上传系统支持的文件格式')
         return
       }
       files[0].url = URL.createObjectURL(files[0]);//创建blob地址，不然图片怎么展示？

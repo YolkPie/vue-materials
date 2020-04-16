@@ -25,8 +25,8 @@
     "@yolkpie/utils": "^1.0.2"
   },
   "blockConfig": {
-    "name": "entry-card",
-    "screenshot": "https://unpkg.com/@icedesign/entry-card-block/screenshot.png",
+    "name": "AddrPC",
+    "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/addrpic.png",
     "themePackage": "@icedesign/theme",
     "title": "入口列表卡片",
     "categories": [
