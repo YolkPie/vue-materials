@@ -5,7 +5,7 @@
 ![当前git地址](https://github.com/YolkPie/vue-materials.git)
 ![如何打包地址](https://www.cnblogs.com/MuYunyun/p/6082359.html)
 ![打包预览git地址](https://github.com/YolkPie/yolkworks-list.git)
-![截图](https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/piczoom/piczoom.png)
+![截图](https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/piczoom/piczoom.png)
 
 
 

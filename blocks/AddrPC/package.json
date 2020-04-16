@@ -26,7 +26,7 @@
   },
   "blockConfig": {
     "name": "AddrPC",
-    "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/imgproject/addrpic/addrpic.png",
+    "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/addrpic/addrpic.png",
     "themePackage": "@icedesign/theme",
     "title": "选择地址二级/三级",
     "categories": [
