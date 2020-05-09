@@ -1,5 +1,5 @@
 {
-  "name": "piczoom-pc-block",
+  "name": "upfile-pc-block",
   "version": "1.0.0",
   "description": "入口列表卡片",
   "main": "lib/index.js",
@@ -12,20 +12,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/PicZoom"
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/UpFile"
   },
   "license": "MIT",
   "keywords": [
-    "PicZoom"
+    "ice",
+    "ice-block"
   ],
   "dependencies": {
-    "vue-awesome-swiper": "^3.1.3"
+
   },
   "blockConfig": {
-    "name": "pic-zoom",
-    "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/piczoom/piczoom.png",
+    "name": "upfile",
+    "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/upfile/upfile.png",
     "themePackage": "@icedesign/theme",
-    "title": "放大镜",
+    "title": "上传文件",
     "categories": [
       "列表"
     ],
