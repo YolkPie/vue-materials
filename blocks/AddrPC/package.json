@@ -1,7 +1,7 @@
 {
   "name": "addr-pc-block",
   "version": "1.0.0",
-  "description": "入口列表卡片",
+  "description": "选择地址二级/三级",
   "main": "lib/index.js",
   "files": [
     "src/"
