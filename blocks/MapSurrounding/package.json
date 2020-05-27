@@ -1,0 +1,17 @@
+{
+  "name": "map-surrounding",
+  "version": "1.0.0",
+  "description": "地图周边组件",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/MapSurrounding"
+  },
+  "blockConfig": {
+    "name": "map-surrounding",
+    "screenshot": "https://img14.360buyimg.com/imagetools/jfs/t1/106552/40/12690/25140/5e4f9d62E242d5383/df6b9203903075db.png",
+    "title": "地图周边组件",
+    "categories": [
+      "tab"
+    ]
+  }
+}
