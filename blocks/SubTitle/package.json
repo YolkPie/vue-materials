@@ -1,0 +1,17 @@
+{
+  "name": "subTitle",
+  "version": "1.0.0",
+  "description": "子标题组件",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/SubTitle"
+  },
+  "blockConfig": {
+    "name": "subTitle",
+    "screenshot": "https://img11.360buyimg.com/imagetools/jfs/t1/125652/38/3169/18606/5ece28b6E130bc50d/23f8f124ad6c82f0.png",
+    "title": "子标题组件",
+    "categories": [
+      "tab"
+    ]
+  }
+}
