@@ -3,7 +3,6 @@
 ### 简介
 Tab 标签页
 
-[使用步骤地址](https://yolkpie.net/yolkworks-list/#/detail/vue-yolkTabs-block)
 ![截图](https://img10.360buyimg.com/imagetools/jfs/t1/124603/1/6764/189709/5f080bffE7a6559ed/9feef1062bebdba3.png)
 
 ### 说明

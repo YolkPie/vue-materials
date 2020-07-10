@@ -3,7 +3,6 @@
 ### 简介
 Steps 步骤条
 
-[使用步骤地址](https://yolkpie.net/yolkworks-list/#/detail/vue-yolkSteps-block)
 ![截图](https://img12.360buyimg.com/imagetools/jfs/t1/132981/17/4063/27307/5f07d06eEd748031b/82c21dc9b66b82d1.png)
 
 ### 使用方法

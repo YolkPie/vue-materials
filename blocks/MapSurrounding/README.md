@@ -3,7 +3,7 @@
 ### 简介
 地图周边组件
 
-[使用步骤地址](https://yolkpie.net/yolkworks-list/#/detail/vue-map-surrounding-block)
+
 ![截图](https://img12.360buyimg.com/imagetools/jfs/t1/130041/1/474/245604/5ece1e0bEfffeda60/f88b1401b65b28cb.png)
 
 ### 使用方法
