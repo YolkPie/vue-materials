@@ -1,0 +1,17 @@
+{
+  "name": "yolkPhotoSwipe",
+  "version": "1.0.0",
+  "description": "基于photoSwipe的vue图片查看器",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/YolkPhotoSwipe"
+  },
+  "blockConfig": {
+    "name": "yolkPhotoSwipe",
+    "screenshot": "https://img10.360buyimg.com/imagetools/jfs/t1/124603/1/6764/189709/5f080bffE7a6559ed/9feef1062bebdba3.png",
+    "title": "基于photoSwipe的vue图片查看器",
+    "categories": [
+      "tab"
+    ]
+  }
+}

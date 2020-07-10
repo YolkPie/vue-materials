@@ -1,0 +1,17 @@
+{
+  "name": "yolkTabs",
+  "version": "1.0.0",
+  "description": "Tab 标签页",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/YolkTabs"
+  },
+  "blockConfig": {
+    "name": "yolkTabs",
+    "screenshot": "https://img12.360buyimg.com/imagetools/jfs/t1/118585/23/11924/25757/5f07d647E5aa14b9e/691db6bdec3d4e91.png",
+    "title": "Tab 标签页",
+    "categories": [
+      "tab"
+    ]
+  }
+}

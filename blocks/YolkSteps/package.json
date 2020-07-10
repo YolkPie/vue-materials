@@ -1,0 +1,17 @@
+{
+  "name": "YolkSteps",
+  "version": "1.0.0",
+  "description": "Steps 步骤条",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/YolkSteps"
+  },
+  "blockConfig": {
+    "name": "yolkSteps",
+    "screenshot": "https://img11.360buyimg.com/imagetools/jfs/t1/125503/35/6695/27935/5f07cea6Eeaa46a8b/b39b1661ae412dfe.png",
+    "title": "Steps 步骤条",
+    "categories": [
+      "tab"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "yolkCircleTabs",
+  "version": "1.0.0",
+  "description": "圆形Tab 标签页",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/YolkCircleTabs"
+  },
+  "blockConfig": {
+    "name": "yolkCircleTabs",
+    "screenshot": "https://img10.360buyimg.com/imagetools/jfs/t1/142311/13/2558/24817/5f081055E7a8babc0/55c1fba583825cee.png",
+    "title": "圆形Tab 标签页",
+    "categories": [
+      "tab"
+    ]
+  }
+}
