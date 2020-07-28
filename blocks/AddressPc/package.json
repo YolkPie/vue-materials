@@ -1,5 +1,5 @@
 {
-  "name": "addr-pc-block",
+  "name": "address-pc-block",
   "version": "1.0.0",
   "description": "选择地址(二级/三级)",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/AddrPC"
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/AddressPC"
   },
   "license": "MIT",
   "keywords": [
