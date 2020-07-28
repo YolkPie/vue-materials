@@ -25,7 +25,7 @@
     "@yolkpie/utils": "^1.0.2"
   },
   "blockConfig": {
-    "name": "addr-pc",
+    "name": "address-pc",
     "screenshot": "https://raw.githubusercontent.com/yanghongmeiwang/imgcart/master/addrpic/addrpic.png",
     "themePackage": "@icedesign/theme",
     "title": "选择地址二级/三级",
