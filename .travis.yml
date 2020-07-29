@@ -18,6 +18,8 @@ after_success:
   - cp -rf blocks/* "${GH_DIR}"
   - cd ./yolkworks-preview
   - git add .
+  - git status
+  - git remote -v
   - git commit -m 'travis-ci auto trigger yolkworks-preview'
   - git status
   - git remote -v
