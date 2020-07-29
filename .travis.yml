@@ -14,6 +14,7 @@ script:
 after_success:
   - vi a.txt
   - i: date +%s
+  - :wq
   - git clone "https://${GH_TOKEN}@${GH_REF}"
   - if [! -d "${GH_DIR}"]; then
   - mkdir "${GH_DIR}"
