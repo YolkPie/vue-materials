@@ -14,10 +14,12 @@ after_success:
   - git clone "https://${GH_TOKEN}@${GH_REF}"
   - if [! -d "${GH_DIR}"]; then
   - mkdir "${GH_DIR}"
+  - echo "111111"
   - fi
   - cp -rf blocks/* "${GH_DIR}"
   - cd ./yolkworks-preview
   - git add .
+  - git status
   - git commit -m 'travis-ci auto trigger yolkworks-preview'
   - git push origin "${P_BRANCH}"
 branches:
