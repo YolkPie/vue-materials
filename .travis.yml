@@ -12,12 +12,10 @@ install: skip
 script:
   - npm run test
 after_success:
-  - touch a.txt
   - git clone "https://${GH_TOKEN}@${GH_REF}"
   - if [! -d "${GH_DIR}"]; then
   - mkdir "${GH_DIR}"
   - fi
-  - cp -rf a.txt "${GH_DIR}"
   - cd ./yolkworks-preview
   - git add .
   - git commit -m 'travis-ci auto trigger build yolkworks-preview'
