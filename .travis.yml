@@ -8,20 +8,20 @@ cache:
 before_install:
   - git config --global user.name "${U_NAME}"
   - git config --global user.email "${U_EMAIL}"
-  - git clone "https://${GH_TOKEN}@${GH_REF}"
-install:
-  - yarn
+install: skip
 script:
   - yarn build
 after_success:
+  - vi a.txt
+  - i: date +%s
   - git clone "https://${GH_TOKEN}@${GH_REF}"
   - if [! -d "${GH_DIR}"]; then
   - mkdir "${GH_DIR}"
   - fi
-  - cp -rf dist/* "${GH_DIR}"
-  - cd ./yolkpie.github.io
+  - cp -rf a.txt "${GH_DIR}"
+  - cd ./yolkworks-preview
   - git add .
-  - git commit -m 'travis-ci auto build yolkworks-preview'
+  - git commit -m 'travis-ci auto trigger build yolkworks-preview'
   - git push origin "${P_BRANCH}"
 branches:
   only:
