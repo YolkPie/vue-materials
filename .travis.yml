@@ -5,13 +5,12 @@ node_js:
 cache:
   directories:
     - node_modules
-before_install:
-  - git config --global user.name "${U_NAME}"
-  - git config --global user.email "${U_EMAIL}"
 install: skip
 script:
   - npm run test
 after_success:
+  - git config --global user.name "${U_NAME}"
+  - git config --global user.email "${U_EMAIL}"
   - git clone "https://${GH_TOKEN}@${GH_REF}"
   - if [! -d "${GH_DIR}"]; then
   - mkdir "${GH_DIR}"
@@ -19,7 +18,7 @@ after_success:
   - cp -rf blocks/* "${GH_DIR}"
   - cd ./yolkworks-preview
   - git add .
-  - git commit -m 'travis-ci auto trigger build yolkworks-preview'
+  - git commit -m 'travis-ci auto trigger yolkworks-preview'
   - git push origin "${P_BRANCH}"
 branches:
   only:
