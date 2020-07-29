@@ -16,6 +16,7 @@ after_success:
   - if [! -d "${GH_DIR}"]; then
   - mkdir "${GH_DIR}"
   - fi
+  - cp -rf blocks/* "${GH_DIR}"
   - cd ./yolkworks-preview
   - git add .
   - git commit -m 'travis-ci auto trigger build yolkworks-preview'
