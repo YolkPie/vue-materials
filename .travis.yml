@@ -10,7 +10,7 @@ before_install:
   - git config --global user.email "${U_EMAIL}"
 install: skip
 script:
-  - yarn build
+  - npm run test
 after_success:
   - vi a.txt
   - i: date +%s
