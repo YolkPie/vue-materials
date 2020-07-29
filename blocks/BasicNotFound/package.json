@@ -1,6 +1,6 @@
 {
   "name": "basic-not-found-block",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "404 报错提示",
   "files": [
     "src/"
