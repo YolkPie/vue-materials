@@ -1,0 +1,15 @@
+{
+  "name": "data-item",
+  "version": "1.0.0",
+  "description": "数据展示项",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/DateItem"
+  },
+  "license": "MIT",
+  "blockConfig": {
+    "name": "date-item",
+    "screenshot": "https://img13.360buyimg.com/imagetools/jfs/t1/113834/27/18843/27733/5f69ee2cEaf2939cd/fbd968787f2e6cdb.png",
+    "title": "数据展示项"
+  }
+}

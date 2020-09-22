@@ -1,0 +1,15 @@
+{
+  "name": "date-picker",
+  "version": "1.0.0",
+  "description": "日期选择（按天/月/周）",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YolkPie/vue-materials/tree/master/blocks/DatePicker"
+  },
+  "license": "MIT",
+  "blockConfig": {
+    "name": "date-picker",
+    "screenshot": "https://img13.360buyimg.com/imagetools/jfs/t1/132377/12/10723/19006/5f69ea62E027c73fb/a272cc7befa88865.png",
+    "title": "日期选择（按天/月/周）"
+  }
+}

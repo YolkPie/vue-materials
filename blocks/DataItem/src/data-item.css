@@ -1,0 +1,37 @@
+.data-item {
+    width: 178px;
+    height: 78px;
+}
+.data-item__wrap {
+    margin: -2px 0 -4px 0;
+}
+.data-item__title {
+    font-size: 24px;
+    color: rgba(0,0,0,0.45);
+    line-height: 28px;
+}
+.data-item__value {
+    display: flex;
+    color: rgba(0,0,0,0.85);
+    font-size: 38px;
+    line-height: 46px;
+    font-family: JDZhengHT-EN-Regular;
+}
+.data-item__intValue {
+    display: block;
+    font-size: 38px;
+    margin-top: 10px;
+}
+.data-item__intValue--mini {
+    font-size: 30px;
+    margin-top: 13px;
+}
+.data-item__floatValue {
+    display: block;
+    font-size: 24px;
+    margin-top:16px;
+}
+.data-item__floatValue--mini {
+    font-size: 18px;
+    margin-top: 16px;
+}
